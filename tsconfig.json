@@ -14,13 +14,14 @@
     "lib": ["es2018", "dom"],
     "paths": {
       "pretty-scroll": [
-        "dist/pretty-scroll/pretty-scroll",
+        "dist/pretty-scroll/ng-pretty-scroll",
         "dist/pretty-scroll"
       ]
     }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true
+    "strictInjectionParameters": true,
+    "enableIvy": true
   }
 }
