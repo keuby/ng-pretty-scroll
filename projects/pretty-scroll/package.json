@@ -1,0 +1,30 @@
+{
+  "name": "pretty-scroll",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:keuby/ng-pretty-scroll.git"
+  },
+  "keywords": [
+    "angular",
+    "scrollbar",
+    "scroll"
+  ],
+  "author": "Knight Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keuby/ng-pretty-scroll/issues"
+  },
+  "homepage": "https://github.com/keuby/ng-pretty-scroll#readme",
+  "peerDependencies": {
+    "@angular/core": "^9.1.12",
+    "@angular/common": "^9.1.12",
+    "@better-scroll/core": "^2.0.0-beta.10",
+    "@better-scroll/scroll-bar": "^2.0.0-beta.10",
+    "@better-scroll/mouse-wheel": "^2.0.0-beta.10",
+    "@better-scroll/observe-dom": "^2.0.0-beta.10"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
+  }
+}
