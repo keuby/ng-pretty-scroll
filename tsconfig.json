@@ -13,10 +13,7 @@
     "target": "es2015",
     "lib": ["es2018", "dom"],
     "paths": {
-      "pretty-scroll": [
-        "dist/pretty-scroll/ng-pretty-scroll",
-        "dist/pretty-scroll"
-      ]
+      "pretty-scroll": ["projects/pretty-scroll/src/public-api"]
     }
   },
   "angularCompilerOptions": {
